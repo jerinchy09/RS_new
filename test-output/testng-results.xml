@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T01:44:49 EDT" name="Suite" finished-at="2024-06-05T01:45:04 EDT" duration-ms="15246">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:RS.RS_new.SubmitOrderTest@7dc19a70]" name="submitOrder" class="RS.RS_new.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-06-05T01:44:49 EDT" name="Error Validations Test" finished-at="2024-06-05T01:45:04 EDT" duration-ms="15246">
+      <class name="RS.RS_new.ErrorValidation">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:RS.RS_new.ErrorValidation@51bf5add]" started-at="2024-06-05T01:44:49 EDT" name="launchApp" finished-at="2024-06-05T01:44:55 EDT" duration-ms="6228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="LoginError()[pri:0, instance:RS.RS_new.ErrorValidation@51bf5add]" started-at="2024-06-05T01:44:55 EDT" name="LoginError" finished-at="2024-06-05T01:44:56 EDT" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginError -->
+        <test-method is-config="true" signature="taerDown()[pri:0, instance:RS.RS_new.ErrorValidation@51bf5add]" started-at="2024-06-05T01:44:56 EDT" name="taerDown" finished-at="2024-06-05T01:44:56 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taerDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:RS.RS_new.ErrorValidation@51bf5add]" started-at="2024-06-05T01:44:56 EDT" name="launchApp" finished-at="2024-06-05T01:45:01 EDT" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="ProductError()[pri:0, instance:RS.RS_new.ErrorValidation@51bf5add]" started-at="2024-06-05T01:45:01 EDT" name="ProductError" finished-at="2024-06-05T01:45:04 EDT" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductError -->
+        <test-method is-config="true" signature="taerDown()[pri:0, instance:RS.RS_new.ErrorValidation@51bf5add]" started-at="2024-06-05T01:45:04 EDT" name="taerDown" finished-at="2024-06-05T01:45:04 EDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taerDown -->
+      </class> <!-- RS.RS_new.ErrorValidation -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
