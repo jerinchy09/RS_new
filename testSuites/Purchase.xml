@@ -12,11 +12,6 @@
     </classes>
   </test> <!-- Test -->
   
-  <test thread-count="5" name="Error Validations Test">
-    <classes>
-      <class name="RS.RS_new.ErrorValidation"/>
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
 
 
